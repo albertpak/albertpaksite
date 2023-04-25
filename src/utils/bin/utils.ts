@@ -60,7 +60,7 @@ export const repo = async (args?: string[]): Promise<string> => {
 };
 
 export const donate = async (args?: string[]): Promise<string> => {
-  window.open(packageJson.funding.url, '_blank');
+  window.open('https://diabetes.org/?form=Donate', '_blank');
 
   return 'Opening donation url...';
 };
