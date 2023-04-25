@@ -17,7 +17,7 @@ interface Props {
 export const useTheme = () => React.useContext(ThemeContext);
 
 export const ThemeProvider: React.FC<Props> = ({ children }) => {
-  const [theme, _setTheme] = useState<Theme>(Themes[0]);
+  const [theme, _setTheme] = useState<Theme>(Themes[10]);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');

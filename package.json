@@ -1,19 +1,15 @@
 {
   "name": "terminal",
-  "version": "2.14.4",
+  "version": "38.2.24",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://m4tt72.com",
-    "email": "hi@m4tt72.com"
-  },
-  "funding": {
-    "type": "Paypal",
-    "url": "https://paypal.me/y4ss1n3"
+    "name": "Albet Pak",
+    "url": "https://albert-pak.com",
+    "email": "hi@albert-pak.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/albertpak"
   },
   "scripts": {
     "start": "next start",

@@ -20,15 +20,15 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  window.open('https://www.linkedin.com/in/albertpak/', '_self');
 
   return 'Opening GUI version...';
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@nm4tt72.com');
+  window.open('mailto:hi@albert-pak.com');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:hi@albert-pak.com...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -53,7 +53,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 export const repo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://github.com/m4tt72/terminal', '_blank');
+    window.open('https://github.com/albertpak', '_blank');
   }, 1000);
 
   return 'Opening repository...';
@@ -67,20 +67,14 @@ export const donate = async (args?: string[]): Promise<string> => {
 
 export const banner = (args?: string[]): string => {
   return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
+ █████  ██      ██████  ███████ ██████  ████████     ██████   █████  ██   ██ 
+██   ██ ██      ██   ██ ██      ██   ██    ██        ██   ██ ██   ██ ██  ██  
+███████ ██      ██████  █████   ██████     ██        ██████  ███████ █████   
+██   ██ ██      ██   ██ ██      ██   ██    ██        ██      ██   ██ ██  ██  
+██   ██ ███████ ██████  ███████ ██   ██    ██        ██      ██   ██ ██   ██  v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
---
-The project is open-source 🎉 type 'repo' to check out the repository.
-
-New 🎉: Try out the new 'theme' command. See all available themes <a href="https://github.com/m4tt72/terminal/tree/master/docs/themes">in the docs</a>.
-New 🎉: New command 'neofetch', for you linux.
 --
 `;
 };
